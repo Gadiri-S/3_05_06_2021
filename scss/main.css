@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap");
+body {
+  background-color: #F2F2F2;
+  overflow-x: hidden;
+  max-width: 480px;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: auto;
+}
+
+body h1 {
+  font-size: 22px;
+  text-align: center;
+}
+
+body h2 {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+body h3 {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+body .home-titrerestaurants {
+  background-color: #F2F2F2;
+}
+
+body .home-restaurants {
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: white;
+  padding: 0px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+body .home-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e6e4e4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+body .home-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+body .image {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+}
+
+body .logo {
+  height: 25px;
+  width: 150px;
+}
+
+body .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .__sous-bloc {
+  padding-left: 15px;
+}
+
+body .__sous-bloc em {
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #534d4d;
+  color: white;
+  padding-bottom: 15px;
+}
+
+body footer li {
+  list-style-type: none;
+}
+
+body footer h4 {
+  font-size: 17px;
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 0px;
+  padding-left: 40px;
+}
+
+body footer .fa-hands-helping {
+  margin-right: 6px;
+}
+
+body footer .fa-utensils {
+  margin-right: 12px;
+}
+/*# sourceMappingURL=main.css.map */

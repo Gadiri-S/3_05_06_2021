@@ -1,0 +1,133 @@
+@mixin text-font {font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+@mixin imgage-size {
+         
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+
+
+}
+
+@mixin screen {
+overflow-x: hidden;
+max-width: 480px
+
+}
+
+@mixin background-color {
+background-color: $background-color;
+}
+
+@mixin bloc {
+margin-left: 15px;
+margin-right: 15px;
+background-color: white;
+padding: 0px;
+padding-bottom: 10px;
+border-radius: 15px;
+margin-bottom: 15px;
+}
+
+@mixin header {
+display: flex;  
+flex-direction: row;  
+justify-content: center;
+margin-bottom: 0px;
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: white;
+
+}
+@mixin logo {
+height: 25px;
+width: 150px;
+}
+
+@mixin location {
+display: flex;  
+flex-direction: row;  
+justify-content: center;
+background-color: #e6e4e4;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+@mixin page {
+display: flex;  
+flex-direction: column;    
+justify-content: center;
+margin-left: 20%;
+margin-right: 20%;
+}
+
+
+@mixin font-body {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@mixin font-title {
+    font-size: 22px;
+    text-align: center;
+
+}
+
+@mixin font-subtitle {
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+@mixin subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+@mixin button {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin em {
+ 
+    padding-left: 15px;
+
+    em {
+        font-size: 17px;
+    font-weight: 600;
+    font-style:normal;}
+}
+
+@mixin footer {
+    display: flex;
+    flex-direction: column;
+    background-color: $footer-color;
+    color:white;
+    padding-bottom: 15px;
+
+    li {
+    list-style-type: none;
+}
+h4 {
+    font-size: 17px;
+    font-family: 'Shrikhand', cursive;
+    margin-bottom: 0px;
+    padding-left: 40px;
+}
+
+.fa-hands-helping {
+    margin-right: 6px;
+}
+.fa-utensils {
+    margin-right: 12px;
+}
+}

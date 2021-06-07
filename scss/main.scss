@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap');
+
+
+@import'./variables';
+@import'./mixin';
+
+
+
+body {
+background-color: $background-color;
+@include screen;
+@include font-body;
+margin: auto;
+
+
+
+h1 {
+    @include font-title;
+}
+
+h2 {
+    @include font-subtitle;
+}
+
+h3 {
+    @include subtitle;
+}
+.home-titrerestaurants {
+    @include background-color;}
+
+
+.home-restaurants {
+    @include bloc;
+
+    
+}
+
+.home-location {
+    @include location;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.home-title {
+    @include page;
+}
+.image {
+    @include imgage-size;
+}
+
+header {
+    @include header;
+
+  
+}
+
+  .logo {
+        @include logo;
+    }
+
+
+    .button {
+        @include button;
+    }
+
+
+    .__sous-bloc {
+        @include em;
+    }
+
+    footer {
+        @include footer;
+    }
+}
