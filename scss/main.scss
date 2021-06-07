@@ -31,7 +31,7 @@ h3 {
 
 .home-restaurants {
     @include bloc;
-
+@include heart;
     
 }
 
@@ -61,6 +61,7 @@ header {
 
     .rechercher {
         @include button;
+        padding-bottom: 40px;
 
         
     }
@@ -82,6 +83,9 @@ header {
 
     .home-fonctionnement {
         background-color: white;
+        padding-top: 15px;
+        padding-bottom: 25px;
+
         @include fonctionnement
     }
   
