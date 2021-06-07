@@ -59,8 +59,10 @@ header {
     }
 
 
-    .button {
+    .rechercher {
         @include button;
+
+        
     }
 
 
@@ -71,4 +73,16 @@ header {
     footer {
         @include footer;
     }
+
+    .button{
+
+    
+        @include style-button;
+    }
+
+    .home-fonctionnement {
+        background-color: white;
+        @include fonctionnement
+    }
+  
 }
