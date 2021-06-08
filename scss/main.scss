@@ -48,6 +48,10 @@ padding-bottom: 15px;
     @include imgage-size;
 }
 
+.image_menu {
+    @include image-size_menu;
+}
+
 header {
     @include header;
 
@@ -92,4 +96,22 @@ header {
 
     
   
+}
+
+.container_1 {
+    @include box 
+    
+}
+
+.menu-layout {
+  
+   @include menu-layout
+}
+
+.main-menu_header {
+    @include main-menu_header;
+}
+
+.menu-list {
+    @include list_menu;
 }
