@@ -10,7 +10,10 @@ body {
 background-color: $background-color;
 @include screen;
 @include font-body;
+@include hover;
+@include box;
 margin: auto;
+
 
 
 
@@ -26,12 +29,14 @@ h3 {
     @include subtitle;
 }
 .home-titrerestaurants {
-    @include background-color;}
+    @include background-color;
+}
 
 
 .home-restaurants {
     @include bloc;
 @include heart;
+@include hover;
     
 }
 
@@ -53,9 +58,16 @@ padding-bottom: 15px;
 }
 
 header {
-    @include header;
+   @include header;
+    @include  back;
 
-  
+}
+
+.header {
+ 
+    @include header_menu;
+    @include  back;
+
 }
 
   .logo {
@@ -99,7 +111,13 @@ header {
 }
 
 .container_1 {
-    @include box 
+    @include box;
+    
+
+
+    
+    
+   
     
 }
 
