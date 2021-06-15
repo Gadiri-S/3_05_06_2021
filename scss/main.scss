@@ -16,7 +16,6 @@ margin: auto;
 
 
 
-
 h1 {
     @include font-title;
 }
@@ -30,7 +29,9 @@ h3 {
 }
 .home-titrerestaurants {
     @include background-color;
+    @include nouveau
 }
+
 
 
 .home-restaurants {
@@ -74,6 +75,10 @@ header {
         @include logo;
     }
 
+    .logo2 {
+        
+        @include back;
+    }
 
     .rechercher {
         @include button;
