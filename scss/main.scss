@@ -64,12 +64,7 @@ header {
 
 }
 
-.header {
- 
-    @include header_menu;
-    @include  back;
 
-}
 
   .logo {
         @include logo;
@@ -119,7 +114,9 @@ header {
     @include box;
     
 
-
+    .header-img {
+     
+    }
     
     
    
@@ -147,4 +144,14 @@ header {
 
 .button_menu {
     @include button_menu;
+}
+
+.header {
+
+
+    
+    @include header_menu;
+
+    @include  back;
+
 }
