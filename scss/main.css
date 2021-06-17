@@ -32,6 +32,8 @@ body .filtre:hover p {
 
 body button:hover {
   cursor: pointer;
+  -webkit-filter: brightness(1.15);
+          filter: brightness(1.15);
 }
 
 body h1 {
@@ -59,7 +61,7 @@ body .home-titrerestaurants {
 body .home-titrerestaurants .home-restaurants .nouveau {
   position: relative;
   bottom: 13rem;
-  left: 15rem;
+  left: 35%;
   border: 2px solid #99E2D0;
   background-color: #99E2D0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -70,7 +72,7 @@ body .home-titrerestaurants .home-restaurants .nouveau {
 body .home-titrerestaurants .nouveau2 {
   position: relative;
   bottom: 13rem;
-  left: 16.8rem;
+  left: 45%;
   border: 2px solid #99E2D0;
   background-color: #99E2D0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -126,6 +128,8 @@ body .home-restaurants .filtre:hover p {
 
 body .home-restaurants button:hover {
   cursor: pointer;
+  -webkit-filter: brightness(1.15);
+          filter: brightness(1.15);
 }
 
 body .home-location {
