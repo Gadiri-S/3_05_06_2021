@@ -500,7 +500,7 @@ body .home-fonctionnement #trois {
   padding-left: 10px;
 }
 
-.menu-layout em {
+.menu-layout em, .menu-layout .background-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -517,6 +517,41 @@ body .home-fonctionnement #trois {
   font-weight: 500;
   font-style: normal;
   width: 20%;
+}
+
+.menu-layout .fa-check-circle {
+  visibility: hidden;
+  color: white;
+}
+
+.menu-layout .menu-list:hover {
+  cursor: pointer;
+}
+
+.menu-layout .menu-list:hover .background-icon {
+  background-color: #99E2D0;
+  margin-left: 20%;
+  border-radius: 0px 15px 15px 0px;
+  padding: 20px;
+  -webkit-transform: translate(0%);
+          transform: translate(0%);
+  -webkit-transition: ease-in-out 700ms;
+  transition: ease-in-out 700ms;
+}
+
+.menu-layout .menu-list:hover .fa-check-circle {
+  visibility: visible;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  -webkit-transform: rotate(360deg) translate(-5%);
+          transform: rotate(360deg) translate(-5%);
+  -webkit-transition: ease-in-out 700ms;
+  transition: ease-in-out 700ms;
+}
+
+.menu-layout .menu-list:hover .menu-list {
+  padding: 0px;
 }
 
 .main-menu_header {
@@ -570,8 +605,9 @@ body .home-fonctionnement #trois {
   justify-items: center;
   background-color: white;
   width: 100%;
+  border: 0px;
   border-radius: 15px;
-  padding: 2px;
+  padding: 0px;
   margin-bottom: 10px;
 }
 

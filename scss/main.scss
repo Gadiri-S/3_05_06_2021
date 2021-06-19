@@ -121,7 +121,8 @@ header {
 
 .menu-layout {
   
-   @include menu-layout
+   @include menu-layout;
+   @include hover_menu;
 }
 
 .main-menu_header {

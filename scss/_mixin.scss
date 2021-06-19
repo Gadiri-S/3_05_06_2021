@@ -416,9 +416,10 @@ background-color: white;
      justify-items: center;
         background-color: white;
         width: 100%;
+        border: 0px;
         
         border-radius: 15px;
-        padding: 2px;
+        padding: 0px;
         margin-bottom: 10px;
        
        
@@ -451,7 +452,7 @@ background-color: white;
 
             }
 
-            em {
+            em, .background-icon {
                display: flex;
                flex-direction: row;
                justify-content: flex-end;
@@ -507,3 +508,42 @@ background: $gradient;
         }
     }
 
+@mixin hover_menu {
+
+   
+       
+           
+        .fa-check-circle{
+              visibility: hidden;
+            color: white;
+    
+    }
+    
+    
+        .menu-list:hover{
+            cursor: pointer;
+    .background-icon {
+        background-color: $tertiary-color;
+margin-left: 20%;
+border-radius: 0px 15px 15px 0px;
+padding:20px;
+transform: translate(0%);
+transition: ease-in-out 700ms;
+
+    }
+
+    .fa-check-circle {
+       
+        visibility: visible;
+        cursor: pointer;
+        color: white;
+        background-color: transparent;
+        transform: rotate(360deg) translate(-5%) ;
+        transition: ease-in-out 700ms;
+
+    }
+
+    .menu-list{
+        padding: 0px;
+    }
+}}
