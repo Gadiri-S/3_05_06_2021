@@ -34,6 +34,8 @@ body button:hover {
   cursor: pointer;
   -webkit-filter: brightness(1.15);
           filter: brightness(1.15);
+  -webkit-box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
+          box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
 }
 
 body h1 {
@@ -130,6 +132,8 @@ body .home-restaurants button:hover {
   cursor: pointer;
   -webkit-filter: brightness(1.15);
           filter: brightness(1.15);
+  -webkit-box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
+          box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
 }
 
 body .home-location {
@@ -493,11 +497,13 @@ body .home-fonctionnement #trois {
 .menu-layout .menu-list_title {
   font-size: 19px;
   font-weight: 500;
+  text-overflow: ellipsis;
 }
 
 .menu-layout p {
-  width: 75%;
+  width: 20rem;
   padding-left: 10px;
+  text-overflow: ellipsis;
 }
 
 .menu-layout em, .menu-layout .background-icon {
@@ -520,8 +526,8 @@ body .home-fonctionnement #trois {
 }
 
 .menu-layout .fa-check-circle {
-  visibility: hidden;
   color: white;
+  margin-right: 20px;
 }
 
 .menu-layout .menu-list:hover {
@@ -530,27 +536,30 @@ body .home-fonctionnement #trois {
 
 .menu-layout .menu-list:hover .background-icon {
   background-color: #99E2D0;
-  margin-left: 20%;
   border-radius: 0px 15px 15px 0px;
-  padding: 20px;
-  -webkit-transform: translate(0%);
-          transform: translate(0%);
-  -webkit-transition: ease-in-out 700ms;
-  transition: ease-in-out 700ms;
+  padding: 10px;
+  position: relative;
+  right: -19%;
+  margin-left: 10px;
+  -webkit-transform: translateX(-75%);
+          transform: translateX(-75%);
+  -webkit-transition: ease-in-out 400ms;
+  transition: ease-in-out 400ms;
 }
 
-.menu-layout .menu-list:hover .fa-check-circle {
+.menu-layout .menu-list:hover .background-icon .fa-check-circle {
+  -webkit-transform: rotate(360deg) translateX(-5%);
+          transform: rotate(360deg) translateX(-5%);
+  -webkit-transition: ease-in 400ms;
+  transition: ease-in 400ms;
   visibility: visible;
   cursor: pointer;
   color: white;
   background-color: transparent;
-  -webkit-transform: rotate(360deg) translate(-5%);
-          transform: rotate(360deg) translate(-5%);
-  -webkit-transition: ease-in-out 700ms;
-  transition: ease-in-out 700ms;
+  padding-right: 0px;
 }
 
-.menu-layout .menu-list:hover .menu-list {
+.menu-layout .menu-list:hover .background-icon .menu-list {
   padding: 0px;
 }
 

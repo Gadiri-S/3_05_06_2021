@@ -333,6 +333,7 @@ background:-webkit-linear-gradient(180deg, rgba(248,128,215,1) 6%, rgba(194,72,2
 button:hover {
 cursor: pointer;
 filter: brightness(1.15);
+box-shadow: $box-shadow_filtre; 
 
 
 }
@@ -414,6 +415,8 @@ background-color: white;
      display: flex;
      flex-direction: row;
      justify-items: center;
+
+
         background-color: white;
         width: 100%;
         border: 0px;
@@ -444,11 +447,14 @@ background-color: white;
             .menu-list_title {
                 font-size: 19px;
                 font-weight: 500;
+  text-overflow: ellipsis;
+
             }
 
             p {
-                width: 75%;
+                width: 20rem;
                 padding-left: 10px;
+     text-overflow: ellipsis;
 
             }
 
@@ -507,6 +513,7 @@ background: $gradient;
             color:#496d63;
         }
     }
+    
 
 @mixin hover_menu {
 
@@ -514,36 +521,46 @@ background: $gradient;
        
            
         .fa-check-circle{
-              visibility: hidden;
             color: white;
+            margin-right: 20px;
     
     }
-    
+
     
         .menu-list:hover{
-            cursor: pointer;
-    .background-icon {
-        background-color: $tertiary-color;
-margin-left: 20%;
-border-radius: 0px 15px 15px 0px;
-padding:20px;
-transform: translate(0%);
-transition: ease-in-out 700ms;
 
-    }
+            cursor: pointer;
+   .background-icon {
+        background-color: $tertiary-color;
+border-radius: 0px 15px 15px 0px;
+padding: 10px;
+position: relative;
+right: -19%;
+margin-left: 10px;
+transform: translateX(-75%);
+transition: ease-in-out 400ms;
+
+
+    
 
     .fa-check-circle {
        
+        transform: rotate(360deg) translateX(-5%);
+        transition: ease-in 400ms;
         visibility: visible;
         cursor: pointer;
         color: white;
         background-color: transparent;
-        transform: rotate(360deg) translate(-5%) ;
-        transition: ease-in-out 700ms;
+        
+        padding-right: 0px;
+
+      
+
 
     }
+
 
     .menu-list{
         padding: 0px;
     }
-}}
+}}}
