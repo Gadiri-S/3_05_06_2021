@@ -495,18 +495,14 @@ body .home-fonctionnement #trois {
 }
 
 .menu-layout .menu-list_title {
-  font-size: 16px;
-  font-weight: 500;
-  text-overflow: ellipsis;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .menu-layout p {
   width: 20rem;
   padding-left: 10px;
-  font-size: 11.5px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  font-size: 0.85rem;
 }
 
 .menu-layout em, .menu-layout .background-icon {
@@ -526,12 +522,27 @@ body .home-fonctionnement #trois {
   font-weight: 500;
   font-style: normal;
   width: 20%;
+  margin-left: 15px;
+}
+
+.menu-layout .menu-list:hover p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .menu-layout .fa-check-circle {
   color: white;
   margin-right: 20px;
   margin-left: 20px;
+  opacity: 0;
+}
+
+.menu-layout .background-icon {
+  position: relative;
+  left: 21%;
+  -webkit-transition: ease-out 300ms;
+  transition: ease-out 300ms;
 }
 
 .menu-layout .menu-list:hover {
@@ -552,6 +563,7 @@ body .home-fonctionnement #trois {
 }
 
 .menu-layout .menu-list:hover .background-icon .fa-check-circle {
+  opacity: 1;
   -webkit-transform: rotate(360deg) translateX(-5%);
           transform: rotate(360deg) translateX(-5%);
   -webkit-transition: ease-in 300ms;
