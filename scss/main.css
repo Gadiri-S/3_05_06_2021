@@ -21,11 +21,14 @@ body .filtre:hover {
 
 body .filtre:hover i {
   color: #9356dc;
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
 }
 
 body .filtre:hover p {
-  -webkit-filter: brightness(95%);
-          filter: brightness(95%);
+  background-color: #9356dc;
+  -webkit-filter: brightness(250%);
+          filter: brightness(250%);
   -webkit-box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
           box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
 }
@@ -119,11 +122,14 @@ body .home-restaurants .filtre:hover {
 
 body .home-restaurants .filtre:hover i {
   color: #9356dc;
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
 }
 
 body .home-restaurants .filtre:hover p {
-  -webkit-filter: brightness(95%);
-          filter: brightness(95%);
+  background-color: #9356dc;
+  -webkit-filter: brightness(250%);
+          filter: brightness(250%);
   -webkit-box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
           box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
 }
@@ -236,7 +242,7 @@ body header a {
   text-decoration: none;
   color: black;
   position: relative;
-  left: -23%;
+  left: -18%;
 }
 
 body header .logo2 {
@@ -279,7 +285,7 @@ body .logo2 a {
   text-decoration: none;
   color: black;
   position: relative;
-  left: -23%;
+  left: -18%;
 }
 
 body .logo2 .logo2 {
@@ -388,6 +394,7 @@ body .home-fonctionnement p {
   padding-bottom: 25px;
   width: 80%;
   background-color: #f2f2f2;
+  font-weight: 700;
 }
 
 body .home-fonctionnement i {
@@ -691,7 +698,7 @@ body .home-fonctionnement #trois {
   text-decoration: none;
   color: black;
   position: relative;
-  left: -23%;
+  left: -18%;
 }
 
 .header .logo2 {

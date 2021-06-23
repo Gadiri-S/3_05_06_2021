@@ -218,6 +218,7 @@ background: $gradient;
             padding-bottom: 25px;
             width:80%;
             background-color: #f2f2f2;
+            font-weight: 700 ;
         }
 
 i {
@@ -322,13 +323,17 @@ background:-webkit-linear-gradient(180deg, rgba(248,128,215,1) 6%, rgba(194,72,2
 
 .filtre:hover {
     cursor: pointer;
-    i {color:$primary-color;} 
+    i {color:$primary-color;
+    filter: brightness(30%);} 
 }
 .filtre:hover p {
-    filter: brightness(95%);
+    background-color: $primary-color;
+    filter: brightness(250%);
     box-shadow: $box-shadow_filtre;
+  
 
 }
+
 
 button:hover {
 cursor: pointer;
@@ -350,7 +355,7 @@ background-color: white;
  text-decoration: none;
         color: black;
         position: relative;
-        left: -23%;
+        left: -18%;
 
 }
 
