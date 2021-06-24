@@ -330,6 +330,9 @@ background:-webkit-linear-gradient(180deg, rgba(248,128,215,1) 6%, rgba(194,72,2
     background-color: $primary-color;
     filter: brightness(250%);
     box-shadow: $box-shadow_filtre;
+    .text-presentation {
+        color:black;
+    }
   
 
 }
@@ -524,6 +527,10 @@ background: $gradient;
     
 
 @mixin hover_menu {
+
+    .test {
+        animation-delay: 6000ms ;
+    }
 
    .menu-list:hover{
 

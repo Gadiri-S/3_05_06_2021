@@ -33,6 +33,10 @@ body .filtre:hover p {
           box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
 }
 
+body .filtre:hover p .text-presentation {
+  color: black;
+}
+
 body button:hover {
   cursor: pointer;
   -webkit-filter: brightness(1.15);
@@ -132,6 +136,10 @@ body .home-restaurants .filtre:hover p {
           filter: brightness(250%);
   -webkit-box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
           box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
+}
+
+body .home-restaurants .filtre:hover p .text-presentation {
+  color: black;
 }
 
 body .home-restaurants button:hover {
@@ -530,6 +538,11 @@ body .home-fonctionnement #trois {
   font-style: normal;
   width: 20%;
   margin-left: 15px;
+}
+
+.menu-layout .test {
+  -webkit-animation-delay: 6000ms;
+          animation-delay: 6000ms;
 }
 
 .menu-layout .menu-list:hover p {
