@@ -1,0 +1,15 @@
+
+.button {
+    @include style-button;
+}
+
+.button-menu {
+    @include button;
+    margin-top: 10%;
+    margin-bottom: 25%;
+}
+
+.button_menu {
+    @include button_menu;
+}
+

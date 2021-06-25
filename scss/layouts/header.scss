@@ -1,0 +1,80 @@
+header {
+background-color: white;
+    display: flex;  
+    flex-direction: row;  
+    justify-content: center;
+    
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    }
+
+   
+        .header {
+     display: flex;  
+     margin-bottom: 0px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     background-color: white;
+
+     
+
+        }
+
+        .back{            
+          
+     text-decoration: none;
+            color: black;
+            position: relative;
+            top:35%;
+            left:-450%;
+    }
+    
+    .logo2 {
+
+        height: 35px;
+        width: 175px;
+
+    }
+
+        .logo {
+            
+        height: 35px;
+        width: 175px;
+        }
+ 
+
+
+.main-menu_header {
+
+      
+        display: flex;
+        flex-direction: row;
+        
+        position: relative;
+        bottom: 2rem;
+        z-index: 3;
+
+       
+       background-color: $background-color;
+       border-top-left-radius:35px ;
+       border-top-right-radius:35px ;
+
+        h1 {       
+             width: 75%;
+            font-family: 'Shrikhand', cursive;
+            font-size: 25px;
+}
+      i{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+         width: 20%;
+          font-size: 25px;
+      }
+        
+    
+        
+    }

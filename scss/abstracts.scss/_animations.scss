@@ -1,0 +1,122 @@
+
+
+  
+    .menu-list:hover{
+ 
+     p{
+         overflow: hidden;
+         white-space: nowrap;
+ text-overflow: ellipsis;}
+         
+     }
+ 
+    
+    
+        
+            
+         .fa-check-circle{
+             color: white;
+             margin-right: 20px;
+             margin-left: 20px;
+             opacity: 0;
+     
+     }
+ 
+ 
+      .background-icon {
+ position:relative ; 
+ left: 21%;     
+  transition: ease-out 300ms;
+      }
+     
+         .menu-list:hover{
+ 
+             cursor: pointer;
+    .background-icon {
+         background-color: $tertiary-color;
+ border-radius: 0px 15px 15px 0px;
+ padding: 10px;
+ position: relative;
+ right: -19%;
+ margin-left: 10px;
+ transform: translateX(-75%);
+ transition: ease-in-out 300ms;
+ 
+ 
+     
+ 
+     .fa-check-circle {
+        opacity: 1;
+         transform: rotate(360deg) translateX(-5%);
+         transition: ease-in 400ms;
+         visibility: visible;
+         cursor: pointer;
+         color: white;
+         background-color: transparent;
+          
+         padding-right: 0px;
+ 
+       
+ 
+ 
+     }
+     
+ 
+ }}
+ 
+ 
+
+     @-webkit-keyframes fadeIn {
+         0%   { opacity: 0; 
+             transform: translateY(30px);}
+         100% { opacity: 1; 
+             transform: translateY(0px);}
+       }
+       @-moz-keyframes fadeIn {
+         0%   { opacity: 0;
+             transform: translateY(30px) }
+         100% { opacity: 1; 
+             transform: translateY(0px)}
+       }
+       @-o-keyframes fadeIn {
+         0%   { opacity: 0; 
+             transform: translateY(30px)}
+         100% { opacity: 1; 
+             transform: translateY(0px)}
+       }
+       @keyframes fadeIn {
+         0%   { opacity: 0; 
+             transform: translateY(30px)}
+         100% { opacity: 1; 
+             transform: translateY(0px)}
+       }
+     
+       .starter {
+         -webkit-animation: fadeIn 0.9s forwards ease-in-out ; 
+         -moz-animation:   fadeIn  0.9s forwards ease-in-out ;
+         -o-animation:      fadeIn  0.9s forwards ease-in-out ; 
+         animation:        fadeIn 0.9s forwards ease-in-out ; 
+         
+       }
+     
+       .dish {
+         -webkit-animation: fadeIn  1.2s forwards ease-in-out ; 
+         -moz-animation:    fadeIn  1.2s forwards ease-in-out ; 
+         -o-animation:      fadeIn  1.2s forwards ease-in-out ; 
+         animation:         fadeIn  1.2s forwards ease-in-out ; 
+     
+         
+       }
+     
+       .dessert {
+         -webkit-animation:fadeIn  1.7s forwards ease-in-out ; 
+         -moz-animation:    fadeIn  1.7s forwards ease-in-out ; 
+         -o-animation:      fadeIn  1.7s forwards ease-in-out ; 
+         animation:        fadeIn  1.7s forwards ease-in-out ; 
+     
+     
+       }
+     
+     
+ 
+ 

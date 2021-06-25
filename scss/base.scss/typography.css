@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap");
+h1 {
+  font-size: 22px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/*# sourceMappingURL=typography.css.map */

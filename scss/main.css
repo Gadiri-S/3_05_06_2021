@@ -1,5 +1,275 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap");
+h1 {
+  font-size: 22px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #2c2929;
+  color: white;
+  padding-bottom: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer h4 {
+  font-size: 17px;
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 0px;
+  padding-left: 40px;
+}
+
+footer .fa-hands-helping {
+  margin-right: 6px;
+}
+
+footer .fa-utensils {
+  margin-right: 12px;
+}
+
+header {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+}
+
+.back {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 35%;
+  left: -450%;
+}
+
+.logo2 {
+  height: 35px;
+  width: 175px;
+}
+
+.logo {
+  height: 35px;
+  width: 175px;
+}
+
+.main-menu_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  bottom: 2rem;
+  z-index: 3;
+  background-color: #F2F2F2;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.main-menu_header h1 {
+  width: 75%;
+  font-family: 'Shrikhand', cursive;
+  font-size: 25px;
+}
+
+.main-menu_header i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  font-size: 25px;
+}
+
+.button {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px;
+  background: #f880d7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6%, #f880d7), to(#c248dd));
+  background: linear-gradient(180deg, #f880d7 6%, #c248dd 100%);
+  border-radius: 30px;
+  border: none;
+}
+
+.button-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 25%;
+}
+
+.button_menu {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px;
+  background: #f880d7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(6%, #f880d7), to(#c248dd));
+  background: linear-gradient(180deg, #f880d7 6%, #c248dd 100%);
+  border-radius: 30px;
+  border: none;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.menu-list:hover p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.fa-check-circle {
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  opacity: 0;
+}
+
+.background-icon {
+  position: relative;
+  left: 21%;
+  -webkit-transition: ease-out 300ms;
+  transition: ease-out 300ms;
+}
+
+.menu-list:hover {
+  cursor: pointer;
+}
+
+.menu-list:hover .background-icon {
+  background-color: #99E2D0;
+  border-radius: 0px 15px 15px 0px;
+  padding: 10px;
+  position: relative;
+  right: -19%;
+  margin-left: 10px;
+  -webkit-transform: translateX(-75%);
+          transform: translateX(-75%);
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+}
+
+.menu-list:hover .background-icon .fa-check-circle {
+  opacity: 1;
+  -webkit-transform: rotate(360deg) translateX(-5%);
+          transform: rotate(360deg) translateX(-5%);
+  -webkit-transition: ease-in 400ms;
+  transition: ease-in 400ms;
+  visibility: visible;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  padding-right: 0px;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.starter {
+  -webkit-animation: fadeIn 0.9s forwards ease-in-out;
+  animation: fadeIn 0.9s forwards ease-in-out;
+}
+
+.dish {
+  -webkit-animation: fadeIn  1.2s forwards ease-in-out;
+  animation: fadeIn  1.2s forwards ease-in-out;
+}
+
+.dessert {
+  -webkit-animation: fadeIn  1.7s forwards ease-in-out;
+  animation: fadeIn  1.7s forwards ease-in-out;
+}
+
 body {
   background-color: #F2F2F2;
   overflow-x: hidden;
@@ -43,24 +313,6 @@ body button:hover {
           filter: brightness(1.15);
   -webkit-box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
           box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
-}
-
-body h1 {
-  font-size: 22px;
-  text-align: center;
-}
-
-body h2 {
-  font-size: 20px;
-  margin-left: 15px;
-}
-
-body h3 {
-  font-size: 18px;
-  font-weight: 300;
-  text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 body .home-titrerestaurants {
@@ -217,100 +469,6 @@ body .image_menu {
      object-fit: cover;
 }
 
-body header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 0px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: white;
-}
-
-body header a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-item-align: center;
-      align-self: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  text-decoration: none;
-  color: black;
-  position: relative;
-  left: -18%;
-}
-
-body header .logo2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 35px;
-  width: 175px;
-}
-
-body .logo {
-  height: 35px;
-  width: 175px;
-}
-
-body .logo2 {
-  background-color: white;
-}
-
-body .logo2 a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-item-align: center;
-      align-self: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  text-decoration: none;
-  color: black;
-  position: relative;
-  left: -18%;
-}
-
-body .logo2 .logo2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 35px;
-  width: 175px;
-}
-
 body .rechercher {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -329,56 +487,6 @@ body .__sous-bloc em {
   font-size: 17px;
   font-weight: 600;
   font-style: normal;
-}
-
-body footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: #2c2929;
-  color: white;
-  padding-bottom: 15px;
-}
-
-body footer a {
-  text-decoration: none;
-  color: white;
-}
-
-body footer li {
-  list-style-type: none;
-}
-
-body footer h4 {
-  font-size: 17px;
-  font-family: 'Shrikhand', cursive;
-  margin-bottom: 0px;
-  padding-left: 40px;
-}
-
-body footer .fa-hands-helping {
-  margin-right: 6px;
-}
-
-body footer .fa-utensils {
-  margin-right: 12px;
-}
-
-body .button {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 15px;
-  background: #f880d7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(6%, #f880d7), to(#c248dd));
-  background: linear-gradient(180deg, #f880d7 6%, #c248dd 100%);
-  border-radius: 30px;
-  border: none;
 }
 
 body .home-fonctionnement {
@@ -540,105 +648,6 @@ body .home-fonctionnement #trois {
   margin-left: 15px;
 }
 
-.menu-layout .test {
-  -webkit-animation-delay: 6000ms;
-          animation-delay: 6000ms;
-}
-
-.menu-layout .menu-list:hover p {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.menu-layout .fa-check-circle {
-  color: white;
-  margin-right: 20px;
-  margin-left: 20px;
-  opacity: 0;
-}
-
-.menu-layout .background-icon {
-  position: relative;
-  left: 21%;
-  -webkit-transition: ease-out 300ms;
-  transition: ease-out 300ms;
-}
-
-.menu-layout .menu-list:hover {
-  cursor: pointer;
-}
-
-.menu-layout .menu-list:hover .background-icon {
-  background-color: #99E2D0;
-  border-radius: 0px 15px 15px 0px;
-  padding: 10px;
-  position: relative;
-  right: -19%;
-  margin-left: 10px;
-  -webkit-transform: translateX(-75%);
-          transform: translateX(-75%);
-  -webkit-transition: ease-in-out 300ms;
-  transition: ease-in-out 300ms;
-}
-
-.menu-layout .menu-list:hover .background-icon .fa-check-circle {
-  opacity: 1;
-  -webkit-transform: rotate(360deg) translateX(-5%);
-          transform: rotate(360deg) translateX(-5%);
-  -webkit-transition: ease-in 300ms;
-  transition: ease-in 300ms;
-  visibility: visible;
-  cursor: pointer;
-  color: white;
-  background-color: transparent;
-  padding-right: 0px;
-}
-
-.menu-layout .menu-list:hover .background-icon .menu-list {
-  padding: 0px;
-}
-
-.main-menu_header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: relative;
-  bottom: 2rem;
-  z-index: 3;
-  background-color: #F2F2F2;
-  border-top-left-radius: 35px;
-  border-top-right-radius: 35px;
-}
-
-.main-menu_header h1 {
-  width: 75%;
-  font-family: 'Shrikhand', cursive;
-  font-size: 25px;
-}
-
-.main-menu_header i {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 20%;
-  font-size: 25px;
-}
-
 .menu-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -654,78 +663,5 @@ body .home-fonctionnement #trois {
   border-radius: 15px;
   padding: 0px;
   margin-bottom: 10px;
-}
-
-.button-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 10%;
-  margin-bottom: 25%;
-}
-
-.button_menu {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 15px;
-  background: #f880d7;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(6%, #f880d7), to(#c248dd));
-  background: linear-gradient(180deg, #f880d7 6%, #c248dd 100%);
-  border-radius: 30px;
-  border: none;
-  padding-right: 50px;
-  padding-left: 50px;
-}
-
-.header {
-  background-color: white;
-}
-
-.header .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 0px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.header a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-item-align: center;
-      align-self: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  text-decoration: none;
-  color: black;
-  position: relative;
-  left: -18%;
-}
-
-.header .logo2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 35px;
-  width: 175px;
 }
 /*# sourceMappingURL=main.css.map */

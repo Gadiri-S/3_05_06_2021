@@ -1,8 +1,3 @@
-@mixin text-font {font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-
-@mixin font-title {font-family: 'Shrikhand', cursive;}
 
 
 @mixin imgage-size {
@@ -46,33 +41,12 @@ border-radius: 15px;
 margin-bottom: 15px;
 }
 
-@mixin header {
-display: flex;  
-flex-direction: row;  
-justify-content: center;
 
-margin-bottom: 0px;
-padding-top: 15px;
-padding-bottom: 15px;
 
-}
-@mixin header_menu {
-       .header {
-    
-    display: flex;  
-    margin-bottom: 0px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-   
-}
 
     
-    }
-@mixin logo {
-height: 35px;
-width: 175px;
+    
 
-}
 
 @mixin location {
 display: flex;  
@@ -113,31 +87,9 @@ margin-right: 20%;
 }
 
 
-@mixin font-body {
-    font-size: 15px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
-@mixin font-title {
-    font-size: 22px;
-    text-align: center;
 
-}
 
-@mixin font-subtitle {
-    font-size: 20px;
-    margin-left: 15px;
-
-}
-
-@mixin subtitle {
-    font-size: 18px;
-    font-weight: 300;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-
-}
 
 @mixin button {
     display: flex;
@@ -154,35 +106,7 @@ margin-right: 20%;
     font-style:normal;}
 }
 
-@mixin footer {
-    display: flex;
-    flex-direction: column;
-    background-color: $footer-color;
-    color:white;
-    padding-bottom: 15px;
-    
-    a {
-        text-decoration: none;
-        color:white;
-    }
 
-    li {
-    list-style-type: none;
-}
-h4 {
-    font-size: 17px;
-    font-family: 'Shrikhand', cursive;
-    margin-bottom: 0px;
-    padding-left: 40px;
-}
-
-.fa-hands-helping {
-    margin-right: 6px;
-}
-.fa-utensils {
-    margin-right: 12px;
-}
-}
 
 @mixin style-button {
 
@@ -347,31 +271,9 @@ box-shadow: $box-shadow_filtre;
 }
 }
 
-@mixin back {
-background-color: white;
 
-    a {
-       display: flex;
-       flex-direction: row;
-       align-self: center;
-       justify-content: flex-start;
- text-decoration: none;
-        color: black;
-        position: relative;
-        left: -18%;
 
-}
 
-.logo2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 35px;
-    width: 175px;
-  
-
-}
-}
 
 
     @mixin nouveau {
@@ -385,39 +287,6 @@ background-color: white;
     }
 
 
-    @mixin main-menu_header {
-
-      
-
-        display: flex;
-        flex-direction: row;
-        
-        position: relative;
-        bottom: 2rem;
-        z-index: 3;
-
-       
-       background-color: $background-color;
-       border-top-left-radius:35px ;
-       border-top-right-radius:35px ;
-
-        h1 {       
-             width: 75%;
-            font-family: 'Shrikhand', cursive;
-            font-size: 25px;
-}
-      i{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-         width: 20%;
-          font-size: 25px;
-      }
-        
-    
-        
-    }
 
     @mixin list_menu {
      display: flex;
@@ -526,75 +395,6 @@ background: $gradient;
     }
     
 
-@mixin hover_menu {
-
-    .test {
-        animation-delay: 6000ms ;
-    }
-
-   .menu-list:hover{
-
-    p{
-        overflow: hidden;
-        white-space: nowrap;
-text-overflow: ellipsis;}
-        
-    }
-
-   
-   
-       
-           
-        .fa-check-circle{
-            color: white;
-            margin-right: 20px;
-            margin-left: 20px;
-            opacity: 0;
-    
-    }
 
 
-     .background-icon {
-position:relative ; 
-left: 21%;     
- transition: ease-out 300ms;
-     }
-    
-        .menu-list:hover{
-
-            cursor: pointer;
-   .background-icon {
-        background-color: $tertiary-color;
-border-radius: 0px 15px 15px 0px;
-padding: 10px;
-position: relative;
-right: -19%;
-margin-left: 10px;
-transform: translateX(-75%);
-transition: ease-in-out 300ms;
-
-
-    
-
-    .fa-check-circle {
-       opacity: 1;
-        transform: rotate(360deg) translateX(-5%);
-        transition: ease-in 300ms;
-        visibility: visible;
-        cursor: pointer;
-        color: white;
-        background-color: transparent;
-         
-        padding-right: 0px;
-
-      
-
-
-    }
-    
-
-
-    .menu-list{
-        padding: 0px;
-    }
-}}}
+ 

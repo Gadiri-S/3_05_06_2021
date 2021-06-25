@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap');
 
 
-@import'./variables';
-@import'./mixin';
-@import './components.scss';
-
+@import'./abstracts.scss/variables';
+@import'./abstracts.scss/mixin';
+@import './base.scss/typography.scss';
+@import'./layouts/footer.scss';
+@import'./layouts/header.scss';
+@import './components.scss/button';
+@import'./abstracts.scss/animations';
 
 body {
 background-color: $background-color;
@@ -16,17 +18,7 @@ margin: auto;
 
 
 
-h1 {
-    @include font-title;
-}
 
-h2 {
-    @include font-subtitle;
-}
-
-h3 {
-    @include subtitle;
-}
 .home-titrerestaurants {
     @include background-color;
     @include nouveau
@@ -58,22 +50,12 @@ padding-bottom: 15px;
     @include image-size_menu;
 }
 
-header {
-   @include header;
-    @include  back;
-
-}
 
 
 
-  .logo {
-        @include logo;
-    }
 
-    .logo2 {
-        
-        @include back;
-    }
+  
+    
 
     .rechercher {
         @include button;
@@ -87,15 +69,9 @@ header {
         @include em;
     }
 
-    footer {
-        @include footer;
-    }
-
-    .button{
+  
 
     
-        @include style-button;
-    }
 
     .home-fonctionnement {
         background-color: white;
@@ -120,35 +96,12 @@ header {
 }
 
 .menu-layout {
-  
+      
    @include menu-layout;
-   @include hover_menu;
-}
-
-.main-menu_header {
-    @include main-menu_header;
 }
 
 .menu-list {
     @include list_menu;
-}
-
-.button-menu {
-    @include button;
-    margin-top: 10%;
-    margin-bottom: 25%;
-}
-
-.button_menu {
-    @include button_menu;
-}
-
-.header {
-
-
-    
-    @include header_menu;
-
-    @include  back;
 
 }
+
