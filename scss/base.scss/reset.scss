@@ -1,0 +1,13 @@
+body {
+    background-color: $background-color;
+    @include screen;
+    @include font-body;
+    @include hover;
+    @include box;
+    margin: auto;
+
+    
+    .container_1 {
+        @include box;
+    }
+    }

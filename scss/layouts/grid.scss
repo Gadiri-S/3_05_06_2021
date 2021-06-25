@@ -1,0 +1,74 @@
+.home-titrerestaurants {
+    @include background-color;
+    @include nouveau
+}
+
+
+
+.home-restaurants {
+    @include bloc;
+@include heart;
+@include hover;
+    
+}
+
+.home-location {
+    @include location;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.home-title {
+    @include page;
+}
+.image {
+    @include imgage-size;
+}
+
+.image_menu {
+    @include image-size_menu;
+}
+
+
+
+
+
+  
+    
+
+    .rechercher {
+        @include button;
+        padding-bottom: 40px;
+
+        
+    }
+
+
+    .__sous-bloc {
+        @include em;
+    }
+
+  
+
+    
+
+    .home-fonctionnement {
+        background-color: white;
+        padding-top: 15px;
+        padding-bottom: 25px;
+
+        @include fonctionnement
+    }
+
+
+    
+  
+    .menu-layout {
+      
+        @include menu-layout;
+     }
+     
+     .menu-list {
+         @include list_menu;
+     
+     }
