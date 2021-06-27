@@ -48,8 +48,13 @@ background-color: white;
 
 .main-menu_header {
 
-      
-        display: flex;
+.heart {
+    -webkit-text-fill-color:transparent; 
+        -webkit-text-stroke:2px;
+        background-clip:text;
+}
+
+    display: flex;
         flex-direction: row;
         
         position: relative;
@@ -57,7 +62,7 @@ background-color: white;
         z-index: 3;
 
        
-       background-color: $background-color;
+       background-color: #F2F2F2;
        border-top-left-radius:35px ;
        border-top-right-radius:35px ;
 

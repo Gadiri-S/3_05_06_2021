@@ -1,13 +1,21 @@
 body {
-    background-color: $background-color;
-    @include screen;
+    background-color: #f2f2f2;
+
+       @include screen;
+
+  
+   @include media;
+       
+   
     @include font-body;
     @include hover;
     @include box;
-    margin: auto;
-
+    margin: auto;}
     
     .container_1 {
         @include box;
+        @include media;
+
     }
-    }
+    
+
