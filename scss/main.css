@@ -282,24 +282,14 @@ header {
 
 .home-titrerestaurants .home-restaurants .nouveau {
   position: relative;
-  bottom: 13rem;
-  left: 35%;
+  bottom: 250%;
+  left: 50%;
   border: 2px solid #99E2D0;
   background-color: #99E2D0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 600;
   color: #496d63;
-}
-
-.home-titrerestaurants .nouveau2 {
-  position: relative;
-  bottom: 13rem;
-  left: 45%;
-  border: 2px solid #99E2D0;
-  background-color: #99E2D0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 600;
-  color: #496d63;
+  padding: 0px;
 }
 
 .home-restaurants {
@@ -313,16 +303,11 @@ header {
 }
 
 .home-restaurants .heart {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -ms-flex-item-align: center;
-      align-self: center;
-  margin-right: 20px;
-  margin-left: 90%;
+  /*display: flex;     
+justify-content: flex-end;
+align-self: center;
+margin-right: 20px;
+margin-left: 90%;*/
   -webkit-text-fill-color: white;
   -webkit-text-stroke: 2px;
   background-clip: text;
@@ -449,6 +434,12 @@ header {
 
 .__sous-bloc {
   padding-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .__sous-bloc em {
@@ -692,6 +683,18 @@ body {
   }
 }
 
+@media (min-width: 481px) {
+  body .dish {
+    width: 33%;
+  }
+  body .starter {
+    width: 33%;
+  }
+  body .dessert {
+    width: 33%;
+  }
+}
+
 body .heart:hover {
   background: -webkit-linear-gradient(180deg, #f880d7 6%, #c248dd);
   -webkit-background-clip: text;
@@ -788,6 +791,18 @@ body button:hover {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 481px) {
+  .container_1 .dish {
+    width: 33%;
+  }
+  .container_1 .starter {
+    width: 33%;
+  }
+  .container_1 .dessert {
+    width: 33%;
   }
 }
 /*# sourceMappingURL=main.css.map */
