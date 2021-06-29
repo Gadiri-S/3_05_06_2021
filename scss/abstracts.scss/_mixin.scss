@@ -248,7 +248,7 @@ margin-left: 90%;*/
     
      
     .heart:hover {
-background:-webkit-linear-gradient(180deg, rgba(248,128,215,1) 6%, rgba(194,72,221,1));
+background:-webkit-linear-gradient(90deg, rgba(248,128,215,1) 6%, rgba(194,72,221,1));
 
 -webkit-background-clip: text;
      background-clip:text;
@@ -406,9 +406,69 @@ background: $gradient;
  @mixin media {
      @media (min-width:481px) {
 
+
+        
+        .home-location {
+            padding-left: 25%;
+        }
+
+        .home-titrerestaurants {
+            h2 {
+                padding-right: 80%;
+            }
+        display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+        justify-content: space-around;}
+
+       .image {
+           width: 100%;
+       }
+       .home-restaurants {
+           
+           width: 45%;
+       }
+
+       .home-fonctionnement {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           padding-left: 35%;
+       }
+
+       .filtre {
+           width: 65%;
+       }
+
+
+
+
+
+
+
+
+
+
+       
+
+       .menu-list {
+           width: 60%;
+       }
+       .menu-layout {
+           display: flex;
+           flex-wrap: wrap;
+       }
+
+}
+.dish {width:100%};
+.starter {width:100%};
+.dessert {width:100%};
+
+
+
         
         
-        @media (min-width:781px) {
+        @media (min-width:900px) {
 
             .home-location {
                 padding-left: 25%;
@@ -441,15 +501,6 @@ background: $gradient;
            .filtre {
                width: 65%;
            }
-
-
-
-
-
-
-
-
-
     
            
 
@@ -459,13 +510,15 @@ background: $gradient;
            .menu-layout {
                display: flex;
                flex-wrap: wrap;
+               
            }
 
-}
+
 .dish {width:33%};
 .starter {width:33%};
 .dessert {width:33%};
 
-
+}
      
-    }}
+}
+ 

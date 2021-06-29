@@ -315,7 +315,7 @@ margin-left: 90%;*/
 }
 
 .home-restaurants .heart:hover {
-  background: -webkit-linear-gradient(180deg, #f880d7 6%, #c248dd);
+  background: -webkit-linear-gradient(90deg, #f880d7 6%, #c248dd);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-stroke: white;
@@ -629,7 +629,7 @@ body {
   margin: auto;
 }
 
-@media (min-width: 481px) and (min-width: 781px) {
+@media (min-width: 481px) {
   body .home-location {
     padding-left: 25%;
   }
@@ -683,7 +683,70 @@ body {
   }
 }
 
-@media (min-width: 481px) {
+body .dish {
+  width: 100%;
+}
+
+body .starter {
+  width: 100%;
+}
+
+body .dessert {
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  body .home-location {
+    padding-left: 25%;
+  }
+  body .home-titrerestaurants {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .home-titrerestaurants h2 {
+    padding-right: 80%;
+  }
+  body .image {
+    width: 100%;
+  }
+  body .home-restaurants {
+    width: 45%;
+  }
+  body .home-fonctionnement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 35%;
+  }
+  body .filtre {
+    width: 65%;
+  }
+  body .menu-list {
+    width: 60%;
+  }
+  body .menu-layout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   body .dish {
     width: 33%;
   }
@@ -696,7 +759,7 @@ body {
 }
 
 body .heart:hover {
-  background: -webkit-linear-gradient(180deg, #f880d7 6%, #c248dd);
+  background: -webkit-linear-gradient(90deg, #f880d7 6%, #c248dd);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-stroke: white;
@@ -740,7 +803,7 @@ body button:hover {
   overflow-x: hidden;
 }
 
-@media (min-width: 481px) and (min-width: 781px) {
+@media (min-width: 481px) {
   .container_1 .home-location {
     padding-left: 25%;
   }
@@ -794,7 +857,70 @@ body button:hover {
   }
 }
 
-@media (min-width: 481px) {
+.container_1 .dish {
+  width: 100%;
+}
+
+.container_1 .starter {
+  width: 100%;
+}
+
+.container_1 .dessert {
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .container_1 .home-location {
+    padding-left: 25%;
+  }
+  .container_1 .home-titrerestaurants {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container_1 .home-titrerestaurants h2 {
+    padding-right: 80%;
+  }
+  .container_1 .image {
+    width: 100%;
+  }
+  .container_1 .home-restaurants {
+    width: 45%;
+  }
+  .container_1 .home-fonctionnement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 35%;
+  }
+  .container_1 .filtre {
+    width: 65%;
+  }
+  .container_1 .menu-list {
+    width: 60%;
+  }
+  .container_1 .menu-layout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .container_1 .dish {
     width: 33%;
   }
