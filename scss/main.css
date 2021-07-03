@@ -305,24 +305,29 @@ header {
 }
 
 .home-restaurants .heart {
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke: 2px;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  -webkit-background-clip: text;
   background-clip: text;
-  opacity: 1;
   padding: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), color-stop(50%, #ff2cc2), to(#c248dd));
+  background-image: linear-gradient(180deg, white 50%, #ff2cc2 50%, #c248dd 100%);
+  background-size: 200% 200%;
+  background-position: top;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  padding: 20px;
+  cursor: pointer;
+  -webkit-transform-origin: top;
+          transform-origin: top;
 }
 
 .home-restaurants .heart:hover {
-  background: -webkit-linear-gradient(90deg, #f880d7 6%, #c248dd);
-  -webkit-text-stroke: white;
-  -webkit-text-fill-color: transparent;
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-  -webkit-background-clip: text;
-  background-clip: text;
-  cursor: pointer;
+  -webkit-text-stroke-color: transparent;
+  background-position: bottom;
 }
 
 .home-restaurants .filtre:hover {
@@ -777,16 +782,8 @@ body .dessert {
 }
 
 body .heart:hover {
-  background: -webkit-linear-gradient(90deg, #f880d7 6%, #c248dd);
-  -webkit-text-stroke: white;
-  -webkit-text-fill-color: transparent;
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-  -webkit-background-clip: text;
-  background-clip: text;
-  cursor: pointer;
+  -webkit-text-stroke-color: transparent;
+  background-position: bottom;
 }
 
 body .filtre:hover {
