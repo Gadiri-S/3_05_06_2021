@@ -277,6 +277,113 @@ header {
   animation: fadeIn  1.7s forwards ease-in-out;
 }
 
+.loader {
+  position: fixed;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  -webkit-animation: loader 0.01s;
+          animation: loader 0.01s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  background: -webkit-gradient(linear, right top, left top, color-stop(13%, #9356dc), color-stop(56%, #ff79da), color-stop(78%, #fb7dda));
+  background: linear-gradient(270deg, #9356dc 13%, #ff79da 56%, #fb7dda 78%);
+}
+
+.loader .loadero {
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  top: 4rem;
+  left: 35%;
+  z-index: -1;
+  border: 10px solid #9356DC;
+  border-radius: 50%;
+  border-top: 10px solid #99E2D0;
+  border-bottom: 10px solid #99E2D0;
+  width: 5rem;
+  height: 5rem;
+  -webkit-animation: spin 4s;
+  animation: spin s;
+  padding: 0px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg) scale(1.5);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) scale(2);
+            transform: rotate(360deg) scale(2);
+  }
+}
+
+@-webkit-keyframes spina {
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+@keyframes spina {
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+.loader .oh {
+  z-index: 99;
+  position: fixed;
+  left: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 32px;
+  font-family: 'Shrikhand', cursive;
+  font-weight: 400;
+  color: whitesmoke;
+  -webkit-animation: spina 4s;
+          animation: spina 4s;
+}
+
+@-webkit-keyframes loader {
+  100% {
+    visibility: hidden;
+    opacity: 0;
+    z-index: -99;
+  }
+}
+
+@keyframes loader {
+  100% {
+    visibility: hidden;
+    opacity: 0;
+    z-index: -99;
+  }
+}
+
 .home-titrerestaurants {
   background-color: #F2F2F2;
 }
@@ -313,8 +420,8 @@ header {
   padding: 20px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), color-stop(50%, #ff2cc2), to(#c248dd));
-  background-image: linear-gradient(180deg, white 50%, #ff2cc2 50%, #c248dd 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(255, 255, 255, 0)), color-stop(50%, white), color-stop(50%, #ff2cc2), to(#c248dd));
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, white 50%, #ff2cc2 50%, #c248dd 100%);
   background-size: 200% 200%;
   background-position: top;
   -moz-background-clip: text;
@@ -562,6 +669,64 @@ header {
   position: relative;
   left: 10px;
   z-index: 2;
+}
+
+.main-menu_header .heart {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(255, 255, 255, 0)), color-stop(50%, white), color-stop(50%, #ff2cc2), to(#c248dd));
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, white 50%, #ff2cc2 50%, #c248dd 100%);
+  background-size: 200% 200%;
+  background-position: top;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  padding: 20px;
+  cursor: pointer;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+.main-menu_header .heart:hover {
+  -webkit-text-stroke-color: transparent;
+  background-position: bottom;
+}
+
+.main-menu_header .filtre:hover {
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  cursor: pointer;
+}
+
+.main-menu_header .filtre:hover i {
+  color: #9356dc;
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
+}
+
+.main-menu_header .filtre:hover p {
+  background-color: #9356dc;
+  -webkit-filter: brightness(250%);
+          filter: brightness(250%);
+  -webkit-box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
+          box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
+}
+
+.main-menu_header .filtre:hover p .text-presentation {
+  color: black;
+}
+
+.main-menu_header button:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(1.15);
+          filter: brightness(1.15);
+  -webkit-box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
+          box-shadow: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);
 }
 
 .menu-layout {

@@ -58,11 +58,15 @@ padding-bottom: 15px;
     }
 
 
-    
+    .main-menu_header {
+        @include heart;
+        @include hover;
+    }
   
     .menu-layout {
       
         @include menu-layout;
+     
      }
      
      .menu-list {
