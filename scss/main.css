@@ -284,8 +284,8 @@ header {
   z-index: 99;
   height: 100%;
   width: 100%;
-  -webkit-animation: loader 0.01s;
-          animation: loader 0.01s;
+  -webkit-animation: loader 0.5s;
+          animation: loader 0.5s;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
   -webkit-transition: ease-in-out;
@@ -303,10 +303,10 @@ header {
   overflow-y: hidden;
   overflow-x: hidden;
   z-index: -1;
-  border: 30px solid #9356DC;
+  border: 30px solid #99E2D0;
+  border-top: 30px solid #9356dc;
   border-radius: 50%;
-  border-top: 30px solid #99E2D0;
-  border-bottom: 30px solid #99E2D0;
+  border-bottom: 30px solid #9356dc;
   width: 5rem;
   height: 5rem;
   -webkit-animation: spin 4s;
@@ -359,13 +359,15 @@ header {
   z-index: 99;
   font-size: 2em;
   font-family: 'Shrikhand';
-  font-weight: 400;
   color: whitesmoke;
   -webkit-animation: spina 4s;
           animation: spina 4s;
 }
 
 @-webkit-keyframes loader {
+  0% {
+    opacity: 1;
+  }
   100% {
     visibility: hidden;
     opacity: 0;
@@ -374,6 +376,9 @@ header {
 }
 
 @keyframes loader {
+  0% {
+    opacity: 1;
+  }
   100% {
     visibility: hidden;
     opacity: 0;

@@ -126,7 +126,7 @@
         z-index: 99;
         height:100%;
         width: 100%;
-        animation: loader 0.01s;
+        animation: loader 0.5s;
         animation-delay: 4s;
         transition: ease-in-out;
         animation-fill-mode: both;
@@ -142,10 +142,11 @@
         overflow-x: hidden;
           
           z-index: -1;
-          border: 30px solid #9356DC;
+          border: 30px solid $tertiary-color;
+
+          border-top: 30px solid $primary-color;
           border-radius: 50%;
-          border-top: 30px solid #99E2D0;
-          border-bottom: 30px solid #99E2D0;
+          border-bottom: 30px solid $primary-color;
           width: 5rem;
           height: 5rem;
           -webkit-animation: spin 4s ;
@@ -175,7 +176,6 @@
 
         font-size: 2em;
         font-family:'Shrikhand';
-        font-weight: 400;
         color: whitesmoke;
         animation: spina 4s ;
       
@@ -184,9 +184,12 @@
       
       
       @keyframes loader {
-        100% {     
 
+        0% { opacity: 1;}
+
+        100% {     
             visibility: hidden;
+
               opacity: 0; 
             z-index: -99;
             }
