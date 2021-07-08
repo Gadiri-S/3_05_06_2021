@@ -392,8 +392,8 @@ header {
 
 .home-titrerestaurants .home-restaurants .nouveau {
   position: relative;
-  bottom: 250%;
-  left: 50%;
+  bottom: 300%;
+  left: 110%;
   border-radius: 2px;
   border: 2px solid #99E2D0;
   background-color: #99E2D0;
@@ -946,6 +946,12 @@ body .dessert {
   body .dessert {
     width: 40%;
   }
+  body .background-icon {
+    position: relative;
+    left: 13%;
+    -webkit-transition: ease-out 300ms;
+    transition: ease-out 300ms;
+  }
 }
 
 body .heart:hover {
@@ -1117,6 +1123,12 @@ body button:hover {
   }
   .container_1 .dessert {
     width: 40%;
+  }
+  .container_1 .background-icon {
+    position: relative;
+    left: 13%;
+    -webkit-transition: ease-out 300ms;
+    transition: ease-out 300ms;
   }
 }
 /*# sourceMappingURL=main.css.map */

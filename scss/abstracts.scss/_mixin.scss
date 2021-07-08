@@ -393,9 +393,9 @@ background: $gradient;
 
     @mixin nouveau {
        .home-restaurants .nouveau {
-            position: relative ;
-            bottom: 250% /*150px;*/;
-            left: /*100px;*/ 50%;
+        position: relative ;
+        bottom: 300% /*150px;*/;
+        left: /*100px;*/ 110%;
             border-radius: 2px;
 
             border:2px solid $tertiary-color;
@@ -527,10 +527,16 @@ background: $gradient;
 .starter {width:40%};
 .dessert {width:40%};
 
+.background-icon {
+    position:relative ; 
+    left: 13%;     
+     transition: ease-out 300ms;
+         }
+
 }
      
 
-
+        
 
 }
  
