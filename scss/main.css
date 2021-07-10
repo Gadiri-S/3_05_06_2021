@@ -310,7 +310,7 @@ header {
   width: 5rem;
   height: 5rem;
   -webkit-animation: spin 4s;
-  animation: spin s;
+  animation: spin 4s;
   padding: 0px;
 }
 
