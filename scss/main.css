@@ -296,7 +296,7 @@ header {
   background: linear-gradient(270deg, #9356dc 13%, #ff79da 56%, #fb7dda 78%);
 }
 
-.loader .loadero {
+.loader .loader-spinner {
   position: fixed;
   top: 40%;
   left: 38%;
@@ -334,14 +334,14 @@ header {
   }
 }
 
-@-webkit-keyframes spina {
+@-webkit-keyframes scale-logo {
   100% {
     -webkit-transform: scale(2);
             transform: scale(2);
   }
 }
 
-@keyframes spina {
+@keyframes scale-logo {
   100% {
     -webkit-transform: scale(2);
             transform: scale(2);
@@ -360,8 +360,8 @@ header {
   font-size: 2em;
   font-family: 'Shrikhand';
   color: whitesmoke;
-  -webkit-animation: spina 4s;
-          animation: spina 4s;
+  -webkit-animation: scale-logo 4s;
+          animation: scale-logo 4s;
 }
 
 @-webkit-keyframes loader {

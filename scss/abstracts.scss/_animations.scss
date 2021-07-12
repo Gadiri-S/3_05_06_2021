@@ -133,7 +133,7 @@
         background: linear-gradient(270deg, rgba(147,86,220,1) 13%, rgba(255,121,218,1) 56%, rgba(251,125,218,1) 78%); 
      
       
-        .loadero {
+        .loader-spinner {
           position: fixed;
           top: 40%;
          left: 38%;
@@ -163,7 +163,7 @@
           100% { transform: rotate(360deg) scale(2); }
         }
       
-        @keyframes spina {
+        @keyframes scale-logo {
       
           100% { transform: scale(2); }
         }
@@ -177,9 +177,9 @@
         font-size: 2em;
         font-family:'Shrikhand';
         color: whitesmoke;
-        animation: spina 4s ;
+        animation: scale-logo 4s ;
       
-        }
+        } 
       
       
       
