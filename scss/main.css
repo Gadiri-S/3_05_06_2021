@@ -895,7 +895,7 @@ body .dessert {
             justify-content: center;
     width: 100%;
   }
-  body .main-menu, body .main-menu_header, body .home-titrerestaurants {
+  body .main-menu, body .main-menu_header, body .home-titrerestaurants, body .presentation {
     max-width: 1400px;
   }
   body body {
@@ -1090,7 +1090,7 @@ body button:hover {
             justify-content: center;
     width: 100%;
   }
-  .container_1 .main-menu, .container_1 .main-menu_header, .container_1 .home-titrerestaurants {
+  .container_1 .main-menu, .container_1 .main-menu_header, .container_1 .home-titrerestaurants, .container_1 .presentation {
     max-width: 1400px;
   }
   .container_1 body {

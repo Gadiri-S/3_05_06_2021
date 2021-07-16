@@ -2,11 +2,11 @@
 
 @import'./abstracts.scss/variables';
 @import'./abstracts.scss/mixin';
-@import './base.scss/typography.scss';
-@import'./layouts/footer.scss';
-@import'./layouts/header.scss';
+@import './base.scss/typography';
+@import'./layouts/footer';
+@import'./layouts/header';
 @import './components.scss/button';
 @import'./abstracts.scss/animations';
-@import'./layouts/grid.scss';
-@import'./base.scss/reset.scss';
+@import'./layouts/grid';
+@import'./base.scss/reset';
 
