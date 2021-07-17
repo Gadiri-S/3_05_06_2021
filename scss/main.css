@@ -154,8 +154,8 @@ header {
   font-weight: 500;
   padding: 15px;
   background: #f880d7;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(49%, #9356dc), color-stop(73%, #e370db), color-stop(83%, #ef74db), color-stop(90%, #ff79da));
-  background: linear-gradient(360deg, #9356dc 49%, #e370db 73%, #ef74db 83%, #ff79da 90%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(46%, #9356dc), color-stop(58%, #9356dc), color-stop(77%, #c466db), color-stop(89%, #ef74db), color-stop(95%, #ff79da));
+  background: linear-gradient(360deg, #9356dc 46%, #9356dc 58%, #c466db 77%, #ef74db 89%, #ff79da 95%);
   border-radius: 30px;
   border: none;
 }
@@ -178,8 +178,8 @@ header {
   font-weight: 500;
   padding: 15px;
   background: #f880d7;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(49%, #9356dc), color-stop(73%, #e370db), color-stop(83%, #ef74db), color-stop(90%, #ff79da));
-  background: linear-gradient(360deg, #9356dc 49%, #e370db 73%, #ef74db 83%, #ff79da 90%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(46%, #9356dc), color-stop(58%, #9356dc), color-stop(77%, #c466db), color-stop(89%, #ef74db), color-stop(95%, #ff79da));
+  background: linear-gradient(360deg, #9356dc 46%, #9356dc 58%, #c466db 77%, #ef74db 89%, #ff79da 95%);
   border-radius: 30px;
   border: none;
   padding-right: 50px;
@@ -430,8 +430,8 @@ header {
   padding: 20px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(49%, rgba(147, 86, 220, 0)), color-stop(50%, #9356dc), color-stop(80%, #e370db), color-stop(85%, #ef74db), color-stop(95%, #ff79da));
-  background-image: linear-gradient(180deg, rgba(147, 86, 220, 0) 49%, #9356dc 50%, #e370db 80%, #ef74db 85%, #ff79da 95%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(48%, rgba(147, 86, 220, 0)), color-stop(48%, #9356dc), color-stop(84%, #c466db), color-stop(89%, #ef74db), color-stop(95%, #ff79da));
+  background-image: linear-gradient(180deg, rgba(147, 86, 220, 0) 48%, #9356dc 48%, #c466db 84%, #ef74db 89%, #ff79da 95%);
   background-size: 200% 200%;
   background-position: top;
   -moz-background-clip: text;
@@ -691,8 +691,8 @@ header {
   padding: 20px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(49%, rgba(147, 86, 220, 0)), color-stop(50%, #9356dc), color-stop(80%, #e370db), color-stop(85%, #ef74db), color-stop(95%, #ff79da));
-  background-image: linear-gradient(180deg, rgba(147, 86, 220, 0) 49%, #9356dc 50%, #e370db 80%, #ef74db 85%, #ff79da 95%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(48%, rgba(147, 86, 220, 0)), color-stop(48%, #9356dc), color-stop(84%, #c466db), color-stop(89%, #ef74db), color-stop(95%, #ff79da));
+  background-image: linear-gradient(180deg, rgba(147, 86, 220, 0) 48%, #9356dc 48%, #c466db 84%, #ef74db 89%, #ff79da 95%);
   background-size: 200% 200%;
   background-position: top;
   -moz-background-clip: text;
