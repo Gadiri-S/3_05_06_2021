@@ -1,198 +1,195 @@
+.menu-list:hover {
+  p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
 
+.fa-check-circle {
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  opacity: 0;
+}
 
-  
-    .menu-list:hover{
- 
-     p{
-         overflow: hidden;
-         white-space: nowrap;
- text-overflow: ellipsis;}
-         
-     }
- 
-    
-    
-        
-            
-         .fa-check-circle{
-             color: white;
-             margin-right: 20px;
-             margin-left: 20px;
-             opacity: 0;
-     
-     }
- 
- 
-      .background-icon {
- position:relative ; 
- left: 21%;      
+.background-icon {
+  position: relative;
+  left: 21%;
   transition: ease-out 300ms;
-      }
-     
-         .menu-list:hover{
- 
-             cursor: pointer;
-    .background-icon {
-         background-color: $tertiary-color;
- border-radius: 0px 15px 15px 0px;
- padding: 10px;
- position: relative;
- right: -19%;
- margin-left: 10px;
- transform: translateX(-75%);
- transition: ease-in-out 300ms;
- 
- 
-     
- 
-     .fa-check-circle {
-        opacity: 1;
-         transform: rotate(360deg) translateX(-5%);
-         transition: ease-in 400ms;
-         visibility: visible;
-         cursor: pointer;
-         color: white;
-         background-color: transparent;
-          
-         padding-right: 0px;
- 
-       
- 
- 
-     }
-     
- 
- }}
- 
- 
+}
 
-     @-webkit-keyframes fadeIn {
-         0%   { opacity: 0; 
-             transform: translateY(30px);}
-         100% { opacity: 1; 
-             transform: translateY(0px);}
-       }
-       @-moz-keyframes fadeIn {
-         0%   { opacity: 0;
-             transform: translateY(30px) }
-         100% { opacity: 1; 
-             transform: translateY(0px)}
-       }
-       @-o-keyframes fadeIn {
-         0%   { opacity: 0; 
-             transform: translateY(30px)}
-         100% { opacity: 1; 
-             transform: translateY(0px)}
-       }
-       @keyframes fadeIn {
-         0%   { opacity: 0; 
-             transform: translateY(30px)}
-         100% { opacity: 1; 
-             transform: translateY(0px)}
-       }
-     
-       .starter {
-         -webkit-animation: fadeIn 0.9s forwards ease-in-out ; 
-         -moz-animation:   fadeIn  0.9s forwards ease-in-out ;
-         -o-animation:      fadeIn  0.9s forwards ease-in-out ; 
-         animation:        fadeIn 0.9s forwards ease-in-out ; 
-         
-       }
-     
-       .dish {
-         -webkit-animation: fadeIn  1.2s forwards ease-in-out ; 
-         -moz-animation:    fadeIn  1.2s forwards ease-in-out ; 
-         -o-animation:      fadeIn  1.2s forwards ease-in-out ; 
-         animation:         fadeIn  1.2s forwards ease-in-out ; 
-     
-         
-       }
-     
-       .dessert {
-         -webkit-animation:fadeIn  1.7s forwards ease-in-out ; 
-         -moz-animation:    fadeIn  1.7s forwards ease-in-out ; 
-         -o-animation:      fadeIn  1.7s forwards ease-in-out ; 
-         animation:        fadeIn  1.7s forwards ease-in-out ; 
-     
-     
-       }
-     
-     
- 
-       .loader {
-           position: fixed;
-        overflow-y: hidden;
-        overflow-x: hidden;
-        z-index: 99;
-        height:100%;
-        width: 100%;
-        animation: loader 0.5s;
-        animation-delay: 4s;
-        transition: ease-in-out;
-        animation-fill-mode: both;
-        background: linear-gradient(270deg, rgba(147,86,220,1) 13%, rgba(255,121,218,1) 56%, rgba(251,125,218,1) 78%); 
-     
-      
-        .loader-spinner {
-          position: fixed;
-          top: 40%;
-         left: 38%;
-       
-          overflow-y: hidden;
-        overflow-x: hidden;
-          
-          z-index: -1;
-          border: 30px solid $tertiary-color;
+.menu-list:hover {
+  cursor: pointer;
+  .background-icon {
+    background-color: $tertiary-color;
+    border-radius: 0px 15px 15px 0px;
+    padding: 10px;
+    position: relative;
+    right: -19%;
+    margin-left: 10px;
+    transform: translateX(-75%);
+    transition: ease-in-out 300ms;
 
-          border-top: 30px solid $primary-color;
-          border-radius: 50%;
-          border-bottom: 30px solid $primary-color;
-          width: 5rem;
-          height: 5rem;
-          -webkit-animation: spin 4s ; 
-          animation: spin 4s ; 
-          padding: 0px;
-        }
-        @-webkit-keyframes spin {
-          0% { -webkit-transform: rotate(0deg) scale(1.5); }
-          100% { -webkit-transform: rotate(360deg); }
-        }
-      
-        @keyframes spin {
-          0% { transform: rotate(0deg); }
-          100% { transform: rotate(360deg) scale(2); }
-        }
-      
-        @keyframes scale-logo {
-      
-          100% { transform: scale(2); }
-        }
-        .oh {
-          
-         display: flex;
-         justify-content: center;
-         margin-top: 20%;
-          z-index: 99;
+    .fa-check-circle {
+      opacity: 1;
+      transform: rotate(360deg) translateX(-5%);
+      transition: ease-in 400ms;
+      visibility: visible;
+      cursor: pointer;
+      color: white;
+      background-color: transparent;
 
-        font-size: 2em;
-        font-family:'Shrikhand';
-        color: whitesmoke;
-        animation: scale-logo 4s ;
-      
-        } 
-      
-      
-      
-      @keyframes loader {
+      padding-right: 0px;
+    }
+  }
+}
 
-        0% { opacity: 1;}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 
-        100% {     
-            visibility: hidden;
+.starter {
+  -webkit-animation: fadeIn 0.9s forwards ease-in-out;
+  -moz-animation: fadeIn 0.9s forwards ease-in-out;
+  -o-animation: fadeIn 0.9s forwards ease-in-out;
+  animation: fadeIn 0.9s forwards ease-in-out;
+}
 
-              opacity: 0; 
-            z-index: -99;
-            }
+.dish {
+  -webkit-animation: fadeIn 1.2s forwards ease-in-out;
+  -moz-animation: fadeIn 1.2s forwards ease-in-out;
+  -o-animation: fadeIn 1.2s forwards ease-in-out;
+  animation: fadeIn 1.2s forwards ease-in-out;
+}
 
-         
-      }}
+.dessert {
+  -webkit-animation: fadeIn 1.7s forwards ease-in-out;
+  -moz-animation: fadeIn 1.7s forwards ease-in-out;
+  -o-animation: fadeIn 1.7s forwards ease-in-out;
+  animation: fadeIn 1.7s forwards ease-in-out;
+}
+
+.loader {
+  position: fixed;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  animation: loader 0.5s;
+  animation-delay: 4s;
+  transition: ease-in-out;
+  animation-fill-mode: both;
+  background: linear-gradient(
+    270deg,
+    rgba(147, 86, 220, 1) 13%,
+    rgba(255, 121, 218, 1) 56%,
+    rgba(251, 125, 218, 1) 78%
+  );
+
+  .loader-spinner {
+    position: fixed;
+    top: 40%;
+    left: 38%;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    z-index: -1;
+    border: 30px solid $tertiary-color;
+
+    border-top: 30px solid $primary-color;
+    border-radius: 50%;
+    border-bottom: 30px solid $primary-color;
+    width: 5rem;
+    height: 5rem;
+    -webkit-animation: spin 4s;
+    animation: spin 4s;
+    padding: 0px;
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg) scale(1.5);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) scale(2);
+    }
+  }
+
+  @keyframes scale-logo {
+    100% {
+      transform: scale(2);
+    }
+  }
+  .oh {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    z-index: 99;
+
+    font-size: 2em;
+    font-family: "Shrikhand";
+    color: whitesmoke;
+    animation: scale-logo 4s;
+  }
+
+  @keyframes loader {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      visibility: hidden;
+
+      opacity: 0;
+      z-index: -99;
+    }
+  }
+}

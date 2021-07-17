@@ -43,7 +43,7 @@ footer li {
 footer h4 {
   font-weight: 200;
   font-size: 17px;
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
   margin-bottom: 0px;
   padding-left: 40px;
 }
@@ -112,7 +112,7 @@ header {
   position: relative;
   bottom: 2rem;
   z-index: 3;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
 }
@@ -125,7 +125,7 @@ header {
 
 .main-menu_header h1 {
   width: 75%;
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
   font-size: 25px;
 }
 
@@ -148,7 +148,7 @@ header {
 }
 
 .button {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
   font-size: 16px;
   font-weight: 500;
@@ -172,7 +172,7 @@ header {
 }
 
 .button_menu {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
   font-size: 16px;
   font-weight: 500;
@@ -211,7 +211,7 @@ header {
 }
 
 .menu-list:hover .background-icon {
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   border-radius: 0px 15px 15px 0px;
   padding: 10px;
   position: relative;
@@ -268,13 +268,13 @@ header {
 }
 
 .dish {
-  -webkit-animation: fadeIn  1.2s forwards ease-in-out;
-  animation: fadeIn  1.2s forwards ease-in-out;
+  -webkit-animation: fadeIn 1.2s forwards ease-in-out;
+  animation: fadeIn 1.2s forwards ease-in-out;
 }
 
 .dessert {
-  -webkit-animation: fadeIn  1.7s forwards ease-in-out;
-  animation: fadeIn  1.7s forwards ease-in-out;
+  -webkit-animation: fadeIn 1.7s forwards ease-in-out;
+  animation: fadeIn 1.7s forwards ease-in-out;
 }
 
 .loader {
@@ -303,7 +303,7 @@ header {
   overflow-y: hidden;
   overflow-x: hidden;
   z-index: -1;
-  border: 30px solid #99E2D0;
+  border: 30px solid #99e2d0;
   border-top: 30px solid #9356dc;
   border-radius: 50%;
   border-bottom: 30px solid #9356dc;
@@ -358,7 +358,7 @@ header {
   margin-top: 20%;
   z-index: 99;
   font-size: 2em;
-  font-family: 'Shrikhand';
+  font-family: "Shrikhand";
   color: whitesmoke;
   -webkit-animation: scale-logo 4s;
           animation: scale-logo 4s;
@@ -387,7 +387,7 @@ header {
 }
 
 .home-titrerestaurants {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .home-titrerestaurants .home-restaurants .nouveau {
@@ -395,9 +395,9 @@ header {
   bottom: 300%;
   left: 92%;
   border-radius: 2px;
-  border: 2px solid #99E2D0;
-  background-color: #99E2D0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 2px solid #99e2d0;
+  background-color: #99e2d0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
   color: #496d63;
   padding: 0px;
@@ -501,7 +501,7 @@ header {
 .home-location #name {
   background-color: #e6e4e4;
   border: none;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
   font-weight: 500;
   width: 65%;
@@ -623,7 +623,7 @@ header {
           flex-direction: column;
   -ms-flex-item-align: center;
       align-self: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #9356dc;
   color: white;
   padding-bottom: 2.5px;
@@ -646,7 +646,7 @@ header {
           flex-direction: column;
   -ms-flex-item-align: center;
       align-self: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #9356dc;
   color: white;
   padding-bottom: 2.5px;
@@ -669,7 +669,7 @@ header {
           flex-direction: column;
   -ms-flex-item-align: center;
       align-self: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #9356dc;
   color: white;
   padding-bottom: 2.5px;
@@ -750,7 +750,7 @@ header {
   font-weight: lighter;
   font-variant: small-caps;
   width: 10%;
-  border-bottom: 4px solid #99E2D0;
+  border-bottom: 4px solid #99e2d0;
 }
 
 .menu-layout .menu-list_title {
@@ -822,7 +822,7 @@ body {
   background-color: #f2f2f2;
   overflow-x: hidden;
   font-size: 15px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   overflow-x: hidden;
   margin: auto;
 }
@@ -912,7 +912,10 @@ body .dessert {
             justify-content: center;
     width: 100%;
   }
-  body .main-menu, body .main-menu_header, body .home-titrerestaurants, body .presentation {
+  body .main-menu,
+  body .main-menu_header,
+  body .home-titrerestaurants,
+  body .presentation {
     max-width: 1400px;
   }
   body body {
@@ -932,7 +935,8 @@ body .dessert {
     -ms-grid-column-span: 1;
     grid-area: 1 / 2 / 2 / 3;
   }
-  body .footer, body .home-fonctionnement {
+  body .footer,
+  body .home-fonctionnement {
     margin: 0px;
     padding: 0px;
   }
@@ -1116,7 +1120,10 @@ body button:hover {
             justify-content: center;
     width: 100%;
   }
-  .container_1 .main-menu, .container_1 .main-menu_header, .container_1 .home-titrerestaurants, .container_1 .presentation {
+  .container_1 .main-menu,
+  .container_1 .main-menu_header,
+  .container_1 .home-titrerestaurants,
+  .container_1 .presentation {
     max-width: 1400px;
   }
   .container_1 body {
@@ -1136,7 +1143,8 @@ body button:hover {
     -ms-grid-column-span: 1;
     grid-area: 1 / 2 / 2 / 3;
   }
-  .container_1 .footer, .container_1 .home-fonctionnement {
+  .container_1 .footer,
+  .container_1 .home-fonctionnement {
     margin: 0px;
     padding: 0px;
   }

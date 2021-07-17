@@ -1,21 +1,17 @@
 body {
     background-color: #f2f2f2;
 
-       @include screen;
+    @include screen;
 
-  
-   @include media;
-       
-   
+    @include media;
+
     @include font-body;
     @include hover;
     @include box;
-    margin: auto;}
-    
-    .container_1 {
-        @include box;
-        @include media;
+    margin: auto;
+}
 
-    }
-    
-
+.container_1 {
+    @include box;
+    @include media;
+}

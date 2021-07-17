@@ -1,24 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap");
 
+$primary-color: #9356dc;
+$secondary-color: #ff79da;
+$tertiary-color: #99e2d0;
+$background-color: #f2f2f2;
+$background-color2: #e6e4e4;
 
+$footer-color: #2c2929;
+$gradient: linear-gradient(
+    360deg,
+    rgba(147, 86, 220, 1) 46%,
+    rgba(147, 86, 220, 1) 58%,
+    rgba(196, 102, 219, 1) 77%,
+    rgba(239, 116, 219, 1) 89%,
+    rgba(255, 121, 218, 1) 95%
+);
 
-
-$primary-color:#9356dc;
-$secondary-color:#FF79DA;
-$tertiary-color:#99E2D0;
-$background-color: #F2F2F2;
-$background-color2:#e6e4e4;
-
-$footer-color:#2c2929;
-$gradient:  linear-gradient(360deg, rgba(147,86,220,1) 46%, rgba(147,86,220,1) 58%, rgba(196,102,219,1) 77%, rgba(239,116,219,1) 89%, rgba(255,121,218,1) 95%);
-
-
-$box-shadow_filtre:2px 6px 15px 4px rgba(0,0,0,0.19);
-
-
-
-
-
-
-
-
+$box-shadow_filtre: 2px 6px 15px 4px rgba(0, 0, 0, 0.19);

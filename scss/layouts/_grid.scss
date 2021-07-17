@@ -1,21 +1,18 @@
 .home-titrerestaurants {
     @include background-color;
-    @include nouveau
+    @include nouveau;
 }
-
-
 
 .home-restaurants {
     @include bloc;
-@include heart;
-@include hover;
-    
+    @include heart;
+    @include hover;
 }
 
 .home-location {
     @include location;
-padding-top: 15px;
-padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .home-title {
@@ -29,50 +26,35 @@ padding-bottom: 15px;
     @include image-size_menu;
 }
 
+.rechercher {
+    @include button;
+    padding-bottom: 40px;
+}
 
+.__sous-bloc {
+    @include em;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
 
-    .rechercher {
-        @include button;
-        padding-bottom: 40px;
+.home-fonctionnement {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 25px;
 
-        
-    }
+    @include fonctionnement;
+}
 
+.main-menu_header {
+    @include heart;
+    @include hover;
+}
 
-    .__sous-bloc {
-        @include em;
-        display: flex;
-        justify-content: space-between;
-        margin-left: 10px;
-    }
+.menu-layout {
+    @include menu-layout;
+}
 
-  
-
-    
-
-    .home-fonctionnement {
-        background-color: white;
-        padding-top: 15px;
-        padding-bottom: 25px;
-
-        @include fonctionnement
-    }
-
-
-    .main-menu_header {
-        @include heart;
-        @include hover;
-    }
-  
-    .menu-layout {
-      
-        @include menu-layout;
-     
-     }
-     
-     .menu-list {
-         @include list_menu;
-     
-     }
-
-     
+.menu-list {
+    @include list_menu;
+}
