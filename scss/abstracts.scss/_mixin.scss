@@ -232,7 +232,7 @@ i {
             background-clip: text;
             padding: 20px;
             transition: all 0.3s ease-in-out;
-            background-image:linear-gradient(180deg, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 50%, rgba(248,128,215,1) 6%, rgba(194,72,221,1) 100%);
+            background-image:linear-gradient(180deg, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 50%, rgba(255,44,194,1) 50%, rgba(194,72,221,1) 68%);
             background-size: 200% 200%;
             background-position: top;
             -moz-background-clip: text;
@@ -396,8 +396,8 @@ box-shadow: $box-shadow_filtre;
     @mixin nouveau {
        .home-restaurants .nouveau {
         position: relative ;
-        bottom: 300% /*150px;*/;
-        left: /*100px;*/ 110%;
+        bottom: 300%;
+        left: 110%;
             border-radius: 2px;
 
             border:2px solid $tertiary-color;
@@ -407,8 +407,12 @@ box-shadow: $box-shadow_filtre;
             color:#496d63;
             padding: 0px;
         }
-        
-    }
+       @media (min-width:900px) {.home-restaurants .nouveau {
+            position: relative ;
+            bottom: 300%;
+            left: 300%;} 
+       
+    }}
     
 
 
@@ -558,9 +562,12 @@ max-width: 1400px;
     left: 17%;     
      transition: ease-out 300ms;
          }
-
+        
        
          
+
+
+
 
 }
      
