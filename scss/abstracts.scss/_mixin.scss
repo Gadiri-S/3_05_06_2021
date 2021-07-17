@@ -397,7 +397,7 @@ box-shadow: $box-shadow_filtre;
        .home-restaurants .nouveau {
         position: relative ;
         bottom: 300%;
-        left: 110%;
+        left: 88%;
             border-radius: 2px;
 
             border:2px solid $tertiary-color;
@@ -410,7 +410,7 @@ box-shadow: $box-shadow_filtre;
        @media (min-width:900px) {.home-restaurants .nouveau {
             position: relative ;
             bottom: 300%;
-            left: 300%;} 
+            left: 220%;} 
        
     }}
     
@@ -454,15 +454,6 @@ box-shadow: $box-shadow_filtre;
            width: 65%;
        }
 
-
-
-
-
-
-
-
-
-
        
 
        .menu-list {
@@ -480,6 +471,17 @@ box-shadow: $box-shadow_filtre;
 
 
 
+
+
+@media (min-width:600px) {
+    .background-icon {
+        position:relative ; 
+        left: 15%;     
+         transition: ease-out 300ms;
+             }
+
+}
+
         
         
         @media (min-width:900px) {
@@ -495,6 +497,7 @@ box-shadow: $box-shadow_filtre;
 max-width: 1400px;        
     }
 
+  
     
        
     body {
@@ -504,7 +507,7 @@ max-width: 1400px;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         
-        .home-titrerestaurants 
+        .home-titrerestaurants
         { grid-area: 1 / 2 / 2 / 3; }
 }
 

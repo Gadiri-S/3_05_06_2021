@@ -393,7 +393,7 @@ header {
 .home-titrerestaurants .home-restaurants .nouveau {
   position: relative;
   bottom: 300%;
-  left: 110%;
+  left: 88%;
   border-radius: 2px;
   border: 2px solid #99E2D0;
   background-color: #99E2D0;
@@ -407,7 +407,7 @@ header {
   .home-titrerestaurants .home-restaurants .nouveau {
     position: relative;
     bottom: 300%;
-    left: 300%;
+    left: 220%;
   }
 }
 
@@ -893,6 +893,15 @@ body .dessert {
   width: 100%;
 }
 
+@media (min-width: 600px) {
+  body .background-icon {
+    position: relative;
+    left: 15%;
+    -webkit-transition: ease-out 300ms;
+    transition: ease-out 300ms;
+  }
+}
+
 @media (min-width: 900px) {
   body .container_responsive {
     display: -webkit-box;
@@ -1086,6 +1095,15 @@ body button:hover {
 
 .container_1 .dessert {
   width: 100%;
+}
+
+@media (min-width: 600px) {
+  .container_1 .background-icon {
+    position: relative;
+    left: 15%;
+    -webkit-transition: ease-out 300ms;
+    transition: ease-out 300ms;
+  }
 }
 
 @media (min-width: 900px) {
